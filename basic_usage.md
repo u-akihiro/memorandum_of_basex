@@ -16,3 +16,15 @@ basexserver -S
 basexserver stop
 ```
 とすることで、停止させることができる。
+
+## BaseXサーバにBaseXクライアントから接続する
+BaseXサーバに接続をするには、BaseXクライアントを使用する。
+```
+basexclient
+```
+を起動すると、usernameとpasswordを聞いてくるので、設定しているユーザー名/パスワードか、もしくはデフォルトのadmin/adminを入力すると、認証を完了してクライアントを使用することが出来る。
+```
+デフォルトではadmin/adminでログイン出来る
+Username: admin
+Password: admin
+```
